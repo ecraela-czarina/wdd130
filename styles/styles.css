@@ -9,8 +9,8 @@
     margin: 0; 
     border: 0;
     padding: 1rem;
-    background-color: turquoise;
-    color: yellow;
+    background-color: rgb(2, 124, 77);
+    color: rgb(244, 255, 94);
 }
 
 nav {
@@ -28,20 +28,13 @@ h1 {
     color: steelblue;
 }
 
-img {
-    width: 150px;
-    height: auto;
-    border: 1px solid steelblue;
-    padding: 2px;
-    box-shadow: 0 0 30px gray;
-}
-
 p {
     padding: 10px;
 }
 
 main {
     max-width: 840px;
+    font-size: 18px;
     
 }
 
@@ -52,8 +45,11 @@ aside {
 
 main img {
     float: right;
-    width: 200px;
+    width: 150px;
     height: auto;
+    border: 1px solid steelblue;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
 }
 
 aside h2 {
