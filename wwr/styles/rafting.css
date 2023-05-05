@@ -1,0 +1,94 @@
+/* Step 3.2 */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&family=Sigmar&display=swap');
+
+/* Step 3.3 */
+:root {
+    --primary-color: #00a6a6;
+    --secondary-color: #efca08;
+    --accent1-color: #f49f0a;
+    --accent2-color: #bbdef0;
+
+    --heading-font: Sigmar;
+    --paragraph-font: Poppins;
+
+    --nav-background-color: white;
+    --nav-link-color: blue;
+    --nav-hover-link-color: violet;
+    --nav-hover-background-color: white;
+
+}
+
+
+/* Step 3.4-5 */
+h1, h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+p main {
+    font-family: var(--paragraph-font);
+    padding: 30px;
+}
+/* Step 3.6 */
+a {
+    text-decoration: none;
+}
+
+
+/* Step 3.7 */
+
+* {
+    background-size: cover;
+}
+
+section img {
+    width: 700px;
+    height: 600px;
+}
+
+
+/* Step 4.1 */
+.hero {
+    position: relative;
+    text-align: center;
+}
+
+.hero-img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+div h1 {
+    position: absolute;
+    top: 2%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    background-color: var(--accent1-color);
+    opacity: 1;
+    padding: 2px;
+    
+}
+
+.hero-article {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: justify;
+    background-color: var(--primary-color);
+    padding: 20px;
+    opacity: 1;
+    color: #bbdef0;
+
+}
+
+article img {
+    
+    float: right;
+    width: 200px;
+}
+
+
+
