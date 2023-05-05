@@ -84,6 +84,19 @@ div h1 {
 
 }
 
+.hero-article h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: justify;
+    background-color: var(--primary-color);
+    opacity: 0.2;
+    color: var(--primary-color)
+
+}
+
+
 article img {
     
     float: right;
