@@ -230,3 +230,115 @@ footer nav {
     justify-content: space-around;
     align-items: center;
 }
+
+/* codes for Contact Us Page */
+
+.hero-contact-page {
+    /* margin: 0 auto;
+    display: flex;
+    align-items: center;
+    max-width: 1000px; */
+    border: solid var(--accent1-color);
+    background-color: var(--secondary-color);
+    padding-inline-start: 0%;
+}
+
+.hero-contact-page h2, h3 {
+    color: black;
+    font-family: var(--heading-font);
+    display: flex;
+    justify-content: center;
+}
+
+.contact-us-section-figure {
+	margin: 1rem auto;
+	display: grid;
+	grid-template-columns: 200px 200px 200px 200px  ;
+    justify-content: space-evenly;
+	align-items: center;
+	max-width: 1000px;
+}  
+
+.contact-us-section-figure img {
+    width: 75px;
+    height: auto;
+    border: none;
+}
+
+.contact-us-section1 h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-us-section1 {
+    background-color: var(--accent2-color);
+    padding-inline-start: 0%;
+}
+
+figcaption {
+    font-family: var(--paragraph-font);
+    text-align: center;
+}
+
+.contact-us-section2 h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-us-section2-figure {
+	margin: 1rem auto;
+	display: grid;
+	grid-template-columns: 333px 333px 333px;
+    justify-content: space-evenly;
+	align-items: center;
+	max-width: 1000px;
+}  
+
+.contact-us-section2-figure img {
+    width: 150px;
+    height: auto;
+}
+
+.contact-us-section2 {
+    background-color: var(--secondary-color);
+    padding-inline-start: 0%;
+}
+
+.form {
+    width: 980px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+}
+
+.form fieldset {
+    display: grid;
+    grid-gap: 0.5rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+}
+
+.form legend {
+    font-weight: 700;
+    color: var(--primary-color);
+    text-decoration: solid black;
+}
+
+.form button {
+    margin: 1rem;
+    background-color: var(--primary-color);
+    color: #fff;
+    border: solid black;
+    border-radius: .5rem;
+    padding: 3px;
+    font: 1.2rem;
+    
+}
+
+.form button:hover {
+    background-color: var(--accent2-color);
+    cursor: pointer;
+}
