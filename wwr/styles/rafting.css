@@ -342,3 +342,121 @@ figcaption {
     background-color: var(--accent2-color);
     cursor: pointer;
 }
+
+/* trips codes */
+
+.trip-hero h1 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    /* transform: translate(-50%, -50%); */
+    text-align: justify;
+    background: none;
+}
+
+.booking a:link, a:visited {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 2%;
+    text-align: center;
+    display: inline-block;
+    width: 960px;
+    
+}
+
+.booking a:hover, a:active {
+    background-color: var(--accent1-color);
+}
+
+.booking a {
+    align-content: center;
+}
+
+.headers {
+    display: grid;
+    grid-template-columns: 50px 300px 300px 300px 20px;
+    align-content: center;
+    text-align: center;
+}
+
+.images {
+    display: grid;
+    grid-template-columns: 15px 290px 300px 300px 20px;
+    align-content: center;
+}
+
+.images img {
+    width: 200px;
+    height: 150px;
+    border: solid black;
+}
+
+.description {
+    font-family: var(--paragraph-font);
+    font-size: small;
+    display: grid;
+    grid-template-columns: 50px 300px 300px 300px 20px;
+    align-content: center;
+    text-align: center;
+}
+
+.description a:link, a:visited {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 2%;
+    text-align: center;
+    display: inline-block;
+    width: 200px;
+}
+
+.description a:hover, a:active {
+    background-color: var(--accent1-color);
+
+}
+
+.table-trips {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+  
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.table-form {
+    display: grid;
+    grid-template-columns: 550px 40px 350px;
+    align-content: center;
+}
+
+.booking-form legend {
+    font-weight: 700;
+    color: black;
+    text-decoration: solid black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.booking-form {
+    background-color: var(--secondary-color);
+    padding: 20px;
+}
+
+.booking-form button {
+    background-color: var(--primary-color);
+    color: #fff;
+    border: solid black;
+    border-radius: .5rem;
+    padding: 3px;
+    font: 1.2rem;
+}
+
+.booking-form h3 {
+    padding: 0%;
+}
