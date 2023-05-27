@@ -20,7 +20,12 @@
 
 
 /* Step 3.4-5 */
-h1, h2 {
+h1{
+    font-family: var(--heading-font);
+    color: white;
+}
+
+h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
@@ -459,4 +464,100 @@ tr:nth-child(even) {
 
 .booking-form h3 {
     padding: 0%;
+}
+
+/* homepage codes */
+
+.trips-newsletter {
+    display: grid;
+    grid-template-columns: 550px 350px;
+    align-content: center;
+}
+
+
+
+.trips-newsletter a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 2%;
+    text-align: center;
+    display: inline-block;
+    width: 450px;
+    background-color: white;
+    color: var(--primary-color);
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin: 30px
+}
+
+.trips-newsletter a:hover, a:active{
+    background-color: var(--accent1-color);
+
+}
+
+
+.article-one {
+    background-color: var(--primary-color);
+}
+
+.article-one h2 {
+    text-decoration: underline;
+    font-family: var(--paragraph-font);
+    margin-top: 50px;
+    color: #eee;
+    text-align: center;
+
+}
+
+.home-hero h1 {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    /* transform: translate(-50%, -50%); */
+    text-align: center;
+    background: none;
+    text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.6);
+}
+
+.trips-newsletter form {
+    background-color: rgb(243, 243, 243);
+    width: 413px;
+    padding: 15px;
+    border: solid var(--primary-color)
+    
+}
+
+.trips-newsletter legend {
+    font-weight: 700;
+    color: black;
+    text-decoration: solid black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.trips-newsletter input {
+    width: 100%;
+}
+
+.about-imgs {
+    display: grid;
+    grid-template-columns: 10px 325px 450px 10px;
+    align-content: center;
+
+}
+
+.about-imgs img {
+    width: 100px;
+    height: 100px;
+}
+
+.about-caption {
+    display: grid;
+    grid-template-columns: 125px 300px 150px 300px 150px;
+    align-content: center;
+    text-align: center;
+    font-family: var(--paragraph-font);
+    font-size: small;
+}
+
+.about-header {
+    text-align: center;
 }
